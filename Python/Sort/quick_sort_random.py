@@ -21,6 +21,5 @@ def sort(list, left, right):
         list[leftpoint], list[rightpoint] = list[rightpoint], list[leftpoint]
         if list[leftpoint] == list[rightpoint] == tmp:
             leftpoint += 1
-    print(list)
     sort(list, rightpoint + 1, right)
     sort(list, left, leftpoint - 1)
