@@ -3,9 +3,9 @@
 # 创建日期：2022/8/11
 
 import random
-import heap_sort
+import merge_sort
 
 list = [i for i in range(21)]
 random.shuffle(list)
-heap_sort.heap(list)
+merge_sort.sort(list,0,len(list)-1)
 print(list)
