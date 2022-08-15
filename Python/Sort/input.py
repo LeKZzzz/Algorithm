@@ -3,9 +3,9 @@
 # 创建日期：2022/8/11
 
 import random
-import merge_sort
+import radix_sort
 
 list = [i for i in range(21)]
 random.shuffle(list)
-merge_sort.sort(list,0,len(list)-1)
+radix_sort.radix_sort(list)
 print(list)
