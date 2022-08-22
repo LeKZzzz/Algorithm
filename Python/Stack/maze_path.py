@@ -22,7 +22,7 @@ dirs = [
     lambda x, y: (x - 1, y),  # 向上进一步
     lambda x, y: (x + 1, y),  # 向下进一步
     lambda x, y: (x, y - 1),  # 向左进一步
-    lambda x, y: (x, y + 1)  # 向右进一步
+    lambda x, y: (x, y + 1)   # 向右进一步
 ]
 
 
